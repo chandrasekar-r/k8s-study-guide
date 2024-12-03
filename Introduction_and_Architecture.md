@@ -14,7 +14,6 @@ Kubernetes is an open-source container orchestration platform designed to automa
 6. **Secret Management**: Manages sensitive information like passwords and SSH keys
 7. **Storage Orchestration**: Automatically mounts storage systems of your choice
 
-## Kubernetes Architecture
 
 ### Control Plane Components (Master Node)
 
@@ -53,9 +52,8 @@ Kubernetes is an open-source container orchestration platform designed to automa
    - Software responsible for running containers
    - Usually Docker, but can be containerd, CRI-O, etc.
 
-### Architecture Diagram
-
-
+## Kubernetes Architecture
+![Kubernetes Architecture](Architecture.png)
 
 ## Kubernetes vs Docker
 
@@ -92,7 +90,7 @@ Kubernetes is an open-source container orchestration platform designed to automa
 
 ### Container Orchestration Visualization
 
-
+![Docker vs Kubernetes Comparison](DockervsK8s.png)
 
 ## Best Practices
 
