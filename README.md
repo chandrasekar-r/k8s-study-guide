@@ -16,10 +16,14 @@ k8s-study-guide/
 ├── 03-comparison/
 │   ├── README.md
 │   └── 01-k8s-vs-docker.md
-└── 04-getting-started/
-    ├── 01-minikube-setup.md
-    ├── 02-kubectl-basics.md
-    └── 03-pod-basics.md
+├── 04-getting-started/
+│   ├── 01-minikube-setup.md
+│   ├── 02-kubectl-basics.md
+│   └── 03-pod-basics.md
+└── 05-deployments/
+    ├── 01-understanding-deployments.md
+    ├── 02-deployment-yaml.md
+    └── 03-pod-lifecycle.md
 ```
 
 ## Learning Progress
@@ -40,13 +44,15 @@ k8s-study-guide/
   - Basic kubectl Commands
   - Understanding Pods
   - Basic Pod Deployment
+- [x] Kubernetes Deployments
+  - Understanding Deployments vs Pods
+  - ReplicaSets and Their Role
+  - Deployment Configuration
+  - Self-healing and Pod Lifecycle
+  - Real-time Pod Management
 
 ### Upcoming Topics
-- [ ] Kubernetes Objects
-  - Deployments
-  - Services
-  - ConfigMaps and Secrets
-- [ ] Kubernetes Networking
+- [ ] Services and Networking
   - Service Types
   - Ingress
   - Network Policies
@@ -54,6 +60,9 @@ k8s-study-guide/
   - Volumes
   - Persistent Volumes
   - Storage Classes
+- [ ] Configuration
+  - ConfigMaps
+  - Secrets
 - [ ] Security
   - Authentication
   - Authorization
