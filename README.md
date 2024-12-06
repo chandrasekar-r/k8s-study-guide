@@ -13,9 +13,13 @@ k8s-study-guide/
 │   ├── README.md
 │   ├── 01-control-plane.md
 │   └── 02-worker-nodes.md
-└── 03-comparison/
-    ├── README.md
-    └── 01-k8s-vs-docker.md
+├── 03-comparison/
+│   ├── README.md
+│   └── 01-k8s-vs-docker.md
+└── 04-getting-started/
+    ├── 01-minikube-setup.md
+    ├── 02-kubectl-basics.md
+    └── 03-pod-basics.md
 ```
 
 ## Learning Progress
@@ -31,12 +35,29 @@ k8s-study-guide/
 - [x] Kubernetes vs Docker
   - Feature Comparison
   - Use Cases
+- [x] Getting Started with Kubernetes
+  - Minikube Setup and Usage
+  - Basic kubectl Commands
+  - Understanding Pods
+  - Basic Pod Deployment
 
 ### Upcoming Topics
 - [ ] Kubernetes Objects
+  - Deployments
+  - Services
+  - ConfigMaps and Secrets
 - [ ] Kubernetes Networking
+  - Service Types
+  - Ingress
+  - Network Policies
 - [ ] Storage and Persistence
+  - Volumes
+  - Persistent Volumes
+  - Storage Classes
 - [ ] Security
+  - Authentication
+  - Authorization
+  - RBAC
 - [ ] Helm and Package Management
 - [ ] Monitoring and Logging
 - [ ] Best Practices and Production Readiness
@@ -55,3 +76,7 @@ k8s-study-guide/
 - [Kubernetes GitHub Repository](https://github.com/kubernetes/kubernetes)
 - Personal notes and diagrams
 - Practice exercises and solutions
+
+## Contributing
+
+Feel free to suggest improvements or corrections by creating issues or pull requests.
