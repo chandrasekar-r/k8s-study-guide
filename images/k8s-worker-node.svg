@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <rect x="50" y="50" width="700" height="300" fill="#f0f0f0" stroke="#666" stroke-width="2"/>
+    <text x="60" y="80" font-family="Arial" font-size="20" fill="#333">Worker Node</text>
+    
+    <rect x="100" y="120" width="150" height="80" fill="#4285f4" stroke="#2962c4" stroke-width="2" rx="10"/>
+    <text x="140" y="165" font-family="Arial" font-size="16" fill="white">kubelet</text>
+    
+    <rect x="320" y="120" width="150" height="80" fill="#34a853" stroke="#1e8e3e" stroke-width="2" rx="10"/>
+    <text x="350" y="165" font-family="Arial" font-size="16" fill="white">kube-proxy</text>
+    
+    <rect x="540" y="120" width="150" height="80" fill="#fbbc05" stroke="#f09a0a" stroke-width="2" rx="10"/>
+    <text x="555" y="165" font-family="Arial" font-size="16" fill="white">Container Runtime</text>
+    
+    <rect x="320" y="240" width="150" height="80" fill="#ea4335" stroke="#c52a1a" stroke-width="2" rx="10"/>
+    <text x="355" y="285" font-family="Arial" font-size="16" fill="white">Containers</text>
+    
+    <path d="M 250 160 L 320 160" stroke="#666" stroke-width="2"/>
+    <path d="M 470 160 L 540 160" stroke="#666" stroke-width="2"/>
+    <path d="M 395 200 L 395 240" stroke="#666" stroke-width="2"/>
+</svg>

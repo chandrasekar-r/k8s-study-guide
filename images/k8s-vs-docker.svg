@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <rect x="50" y="50" width="300" height="300" fill="#f0f0f0" stroke="#666" stroke-width="2"/>
+    <text x="60" y="80" font-family="Arial" font-size="20" fill="#333">Docker Environment</text>
+    
+    <rect x="100" y="120" width="100" height="60" fill="#2496ed" stroke="#1567a4" stroke-width="2" rx="10"/>
+    <text x="110" y="155" font-family="Arial" font-size="14" fill="white">Container 1</text>
+    
+    <rect x="100" y="200" width="100" height="60" fill="#2496ed" stroke="#1567a4" stroke-width="2" rx="10"/>
+    <text x="110" y="235" font-family="Arial" font-size="14" fill="white">Container 2</text>
+    
+    <rect x="100" y="280" width="100" height="40" fill="#1567a4" stroke="#0f4c7b" stroke-width="2"/>
+    <text x="110" y="305" font-family="Arial" font-size="14" fill="white">Single Host</text>
+    
+    <rect x="450" y="50" width="300" height="300" fill="#f0f0f0" stroke="#666" stroke-width="2"/>
+    <text x="460" y="80" font-family="Arial" font-size="20" fill="#333">Kubernetes Environment</text>
+    
+    <rect x="500" y="120" width="100" height="60" fill="#326ce5" stroke="#2650b5" stroke-width="2" rx="10"/>
+    <text x="525" y="155" font-family="Arial" font-size="14" fill="white">Pod 1</text>
+    
+    <rect x="500" y="200" width="100" height="60" fill="#326ce5" stroke="#2650b5" stroke-width="2" rx="10"/>
+    <text x="525" y="235" font-family="Arial" font-size="14" fill="white">Pod 2</text>
+    
+    <rect x="650" y="120" width="80" height="40" fill="#34a853" stroke="#1e8e3e" stroke-width="2"/>
+    <text x="660" y="145" font-family="Arial" font-size="12" fill="white">Node 1</text>
+    
+    <rect x="650" y="200" width="80" height="40" fill="#34a853" stroke="#1e8e3e" stroke-width="2"/>
+    <text x="660" y="225" font-family="Arial" font-size="12" fill="white">Node 2</text>
+    
+    <rect x="500" y="280" width="80" height="40" fill="#fbbc05" stroke="#f09a0a" stroke-width="2"/>
+    <text x="508" y="305" font-family="Arial" font-size="10" fill="white">Load Balancer</text>
+    
+    <rect x="590" y="280" width="80" height="40" fill="#ea4335" stroke="#c52a1a" stroke-width="2"/>
+    <text x="600" y="305" font-family="Arial" font-size="10" fill="white">Auto-scaling</text>
+    
+    <path d="M 600 150 L 650 140" stroke="#666" stroke-width="2"/>
+    <path d="M 600 230 L 650 220" stroke="#666" stroke-width="2"/>
+</svg>
