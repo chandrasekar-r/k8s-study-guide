@@ -25,3 +25,23 @@ A detailed comparison between Kubernetes and Docker, understanding their roles, 
   - Manages containers across multiple nodes
   - Automatic scaling
   - Cluster-wide management
+
+## Visual Comparison
+
+![Kubernetes vs Docker Comparison](../images/k8s-vs-docker.svg)
+
+## When to Use What
+
+### Use Docker When:
+- Developing applications locally
+- Simple container deployments
+- Single-host environments
+- Learning container basics
+- Quick prototyping
+
+### Use Kubernetes When:
+- Running applications at scale
+- Need high availability
+- Complex microservices architecture
+- Multi-host deployments
+- Advanced orchestration needs

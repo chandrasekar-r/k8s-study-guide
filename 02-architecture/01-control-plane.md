@@ -23,3 +23,34 @@ A consistent and highly-available key-value store used as Kubernetes' backing st
 - Provides reliable data storage
 - Handles concurrent operations
 - Maintains consistency across cluster
+
+### 3. kube-scheduler
+
+Watches for newly created pods with no assigned node and selects a node for them to run on.
+
+**Responsibilities:**
+- Pod scheduling
+- Resource evaluation
+- Constraint checking
+- Priority management
+
+### 4. kube-controller-manager
+
+Runs controller processes that regulate the state of the cluster.
+
+**Responsibilities:**
+- Node controller: Monitoring and responding to node failures
+- Replication controller: Maintaining the correct number of pods
+- Endpoints controller: Populates the Endpoints object
+- Service Account & Token controllers: Create default accounts and API access tokens
+
+## Architecture Diagram
+
+![Kubernetes Control Plane Architecture](../images/k8s-control-plane.svg)
+
+## Communication Flow
+
+1. All communications go through the API server
+2. etcd stores the state
+3. Controller manager ensures desired state
+4. Scheduler assigns work to nodes
